@@ -8,7 +8,7 @@ interface ServiceCardProps {
 
 export default function ServiceCard({ service, bookingUrl }: ServiceCardProps) {
   return (
-    <div className="group rounded-lg border border-charcoal-border bg-charcoal p-6 transition-colors duration-200 hover:border-gold/40">
+    <div className="group rounded-lg border border-olive-border bg-olive p-6 transition-colors duration-200 hover:border-leather">
       <div className="mb-3 flex items-start justify-between">
         <h3 className="font-heading text-xl font-semibold uppercase tracking-wide text-neutral-100">
           {service.name}

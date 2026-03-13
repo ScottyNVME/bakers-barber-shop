@@ -8,13 +8,13 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-charcoal-darker px-4 py-20 sm:px-6"
+      className="bg-olive-darker px-4 py-20 sm:px-6"
       aria-labelledby="about-heading"
     >
       <div className="mx-auto max-w-7xl">
         <div className="grid items-center gap-12 lg:grid-cols-2">
           {/* Photo placeholder */}
-          <div className="relative aspect-[4/5] overflow-hidden rounded-lg bg-gradient-to-br from-charcoal-lighter to-charcoal">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-lg bg-gradient-to-br from-olive-lighter to-olive">
             <div className="flex h-full items-center justify-center">
               <div className="text-center">
                 <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full border-2 border-gold/30">

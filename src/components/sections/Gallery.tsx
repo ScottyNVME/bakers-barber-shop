@@ -13,7 +13,7 @@ export default function Gallery() {
   return (
     <section
       id="gallery"
-      className="bg-charcoal px-4 py-20 sm:px-6"
+      className="bg-olive px-4 py-20 sm:px-6"
       aria-labelledby="gallery-heading"
     >
       <div className="mx-auto max-w-7xl">
@@ -26,7 +26,7 @@ export default function Gallery() {
           {placeholders.map((label) => (
             <div
               key={label}
-              className="group relative aspect-square overflow-hidden rounded-lg bg-gradient-to-br from-charcoal-lighter to-charcoal-darker"
+              className="group relative aspect-square overflow-hidden rounded-lg bg-gradient-to-br from-olive-lighter to-olive-darker"
             >
               {/* Replace with next/image when real photos are available */}
               <div className="flex h-full items-center justify-center p-4">

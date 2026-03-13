@@ -8,7 +8,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="bg-charcoal-darker px-4 py-20 sm:px-6"
+      className="bg-olive-darker px-4 py-20 sm:px-6"
       aria-labelledby="services-heading"
     >
       <div className="mx-auto max-w-7xl">

@@ -15,7 +15,7 @@ function StarIcon() {
 
 export default function ReviewCard({ review }: { review: Review }) {
   return (
-    <div className="rounded-lg border border-charcoal-border bg-charcoal p-6">
+    <div className="rounded-lg border border-olive-border bg-olive p-6">
       <div className="mb-3 flex" aria-label={`${review.rating} out of 5 stars`}>
         {Array.from({ length: review.rating }).map((_, i) => (
           <StarIcon key={i} />

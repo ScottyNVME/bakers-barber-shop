@@ -10,13 +10,13 @@ export default function Hero() {
       aria-label="Welcome"
     >
       {/* Background gradient placeholder — replace with real image */}
-      <div className="absolute inset-0 bg-gradient-to-br from-charcoal-darker via-charcoal to-charcoal-darker" />
+      <div className="absolute inset-0 bg-gradient-to-br from-olive-darker via-olive to-olive-darker" />
       {/* Dark overlay for text readability when using a real photo */}
-      <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute inset-0 bg-olive-darker/50" />
 
       {/* Decorative gold line accents */}
       <div className="absolute top-0 left-0 h-1 w-1/3 bg-gradient-to-r from-gold to-transparent" />
-      <div className="absolute bottom-0 right-0 h-1 w-1/3 bg-gradient-to-l from-gold to-transparent" />
+      <div className="absolute bottom-0 right-0 h-1 w-1/3 bg-gradient-to-l from-leather to-transparent" />
 
       <div className="relative z-10 mx-auto max-w-4xl px-4 py-32 text-center sm:px-6">
         {/* Tagline */}

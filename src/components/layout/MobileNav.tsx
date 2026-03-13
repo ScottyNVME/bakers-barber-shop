@@ -27,7 +27,7 @@ export default function MobileNav({ open, onClose, bookingUrl }: MobileNavProps)
   return (
     <div
       id="mobile-nav"
-      className="fixed inset-0 z-50 bg-charcoal-darker/98 backdrop-blur-md"
+      className="fixed inset-0 z-50 bg-olive-darker/98 backdrop-blur-md"
       role="dialog"
       aria-modal="true"
       aria-label="Mobile navigation"

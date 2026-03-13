@@ -5,7 +5,7 @@ export default function FAQ() {
   return (
     <section
       id="faq"
-      className="bg-charcoal-darker px-4 py-20 sm:px-6"
+      className="bg-olive-darker px-4 py-20 sm:px-6"
       aria-labelledby="faq-heading"
     >
       <div className="mx-auto max-w-3xl">
@@ -17,7 +17,7 @@ export default function FAQ() {
           {FAQ_ITEMS.map((item) => (
             <details
               key={item.question}
-              className="group rounded-lg border border-charcoal-border bg-charcoal"
+              className="group rounded-lg border border-olive-border bg-olive"
             >
               <summary className="flex cursor-pointer items-center justify-between px-6 py-4 font-heading text-lg font-medium uppercase tracking-wide text-neutral-100 marker:[content:''] [&::-webkit-details-marker]:hidden">
                 {item.question}
@@ -36,7 +36,7 @@ export default function FAQ() {
                   />
                 </svg>
               </summary>
-              <div className="border-t border-charcoal-border px-6 py-4 text-neutral-400">
+              <div className="border-t border-olive-border px-6 py-4 text-neutral-400">
                 {item.answer}
               </div>
             </details>

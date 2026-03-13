@@ -6,7 +6,7 @@ export default function Reviews() {
   return (
     <section
       id="reviews"
-      className="bg-charcoal px-4 py-20 sm:px-6"
+      className="bg-olive px-4 py-20 sm:px-6"
       aria-labelledby="reviews-heading"
     >
       <div className="mx-auto max-w-7xl">

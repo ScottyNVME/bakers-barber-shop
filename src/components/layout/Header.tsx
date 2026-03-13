@@ -22,7 +22,7 @@ export default function Header() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-charcoal-darker/95 shadow-lg backdrop-blur-sm"
+          ? "bg-olive-darker/95 shadow-lg backdrop-blur-sm"
           : "bg-transparent"
       }`}
     >

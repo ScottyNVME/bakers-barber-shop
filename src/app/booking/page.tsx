@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function BookingPage() {
   return (
-    <div className="min-h-screen bg-charcoal-darker px-4 pt-28 pb-20 sm:px-6">
+    <div className="min-h-screen bg-olive-darker px-4 pt-28 pb-20 sm:px-6">
       <div className="mx-auto max-w-3xl">
         <Link
           href="/"

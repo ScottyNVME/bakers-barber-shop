@@ -5,7 +5,7 @@ export default function BookingFallback() {
   const bookingUrl = process.env.NEXT_PUBLIC_BOOKING_URL;
 
   return (
-    <div className="mx-auto max-w-lg rounded-lg border border-charcoal-border bg-charcoal p-8 text-center">
+    <div className="mx-auto max-w-lg rounded-lg border border-olive-border bg-olive p-8 text-center">
       <h2 className="mb-2 font-heading text-2xl font-bold uppercase tracking-wider text-neutral-100">
         Book Your Appointment
       </h2>
@@ -18,7 +18,7 @@ export default function BookingFallback() {
         {SERVICES.map((service) => (
           <div
             key={service.id}
-            className="flex justify-between border-b border-charcoal-border py-2 text-sm"
+            className="flex justify-between border-b border-olive-border py-2 text-sm"
           >
             <span className="text-neutral-300">{service.name}</span>
             <span className="font-semibold text-gold">${service.price}</span>

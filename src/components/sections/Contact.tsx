@@ -9,7 +9,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="bg-charcoal px-4 py-20 sm:px-6"
+      className="bg-olive px-4 py-20 sm:px-6"
       aria-labelledby="contact-heading"
     >
       <div className="mx-auto max-w-7xl">
@@ -92,7 +92,7 @@ export default function Contact() {
           </div>
 
           {/* Map */}
-          <div className="aspect-square overflow-hidden rounded-lg bg-charcoal-darker lg:aspect-auto lg:min-h-[400px]">
+          <div className="aspect-square overflow-hidden rounded-lg bg-olive-darker lg:aspect-auto lg:min-h-[400px]">
             {mapsEmbedUrl ? (
               <iframe
                 src={mapsEmbedUrl}

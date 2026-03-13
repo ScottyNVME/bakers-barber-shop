@@ -4,7 +4,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-charcoal-border bg-charcoal-darker">
+    <footer className="border-t border-leather/40 bg-olive-darker">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
           {/* Contact */}
@@ -63,7 +63,7 @@ export default function Footer() {
                   href={BUSINESS.social.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex h-11 w-11 items-center justify-center rounded-full border border-charcoal-border text-neutral-400 transition-colors hover:border-gold hover:text-gold"
+                  className="flex h-11 w-11 items-center justify-center rounded-full border border-olive-border text-neutral-400 transition-colors hover:border-gold hover:text-gold"
                   aria-label="Follow us on Instagram"
                 >
                   <svg
@@ -80,7 +80,7 @@ export default function Footer() {
                   href={BUSINESS.social.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex h-11 w-11 items-center justify-center rounded-full border border-charcoal-border text-neutral-400 transition-colors hover:border-gold hover:text-gold"
+                  className="flex h-11 w-11 items-center justify-center rounded-full border border-olive-border text-neutral-400 transition-colors hover:border-gold hover:text-gold"
                   aria-label="Follow us on Facebook"
                 >
                   <svg
@@ -97,7 +97,7 @@ export default function Footer() {
         </div>
 
         {/* Area served (SEO) */}
-        <div className="mt-10 border-t border-charcoal-border pt-8 text-center">
+        <div className="mt-10 border-t border-olive-border pt-8 text-center">
           <p className="text-sm text-neutral-500">
             Proudly serving {AREA_TOWNS.join(", ")}, and all of Monmouth County,
             NJ.

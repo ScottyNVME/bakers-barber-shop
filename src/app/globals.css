@@ -15,10 +15,14 @@
   --color-gold-800: #544722;
   --color-gold-900: #2B2514;
 
-  --color-charcoal: #1A1A1A;
-  --color-charcoal-darker: #0A0A0A;
-  --color-charcoal-lighter: #2A2A2A;
-  --color-charcoal-border: #333333;
+  --color-olive: #2A3020;
+  --color-olive-darker: #1A1F14;
+  --color-olive-lighter: #3A4230;
+  --color-olive-border: #4A5340;
+
+  --color-leather: #8B5E3C;
+  --color-leather-light: #A67B5B;
+  --color-leather-dark: #6B4226;
 
   --font-heading: var(--font-oswald), ui-sans-serif, system-ui, sans-serif;
   --font-body: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
@@ -31,7 +35,7 @@
   }
 
   body {
-    @apply bg-charcoal-darker text-neutral-100 font-body antialiased;
+    @apply bg-olive-darker text-neutral-100 font-body antialiased;
   }
 
   ::selection {
